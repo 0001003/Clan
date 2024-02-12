@@ -1,21 +1,21 @@
 //scan
-//printf() - Ãâ·Â
-//scanf() - ÀÔ·Â
+//printf() - ì¶œë ¥
+//scanf() - ìž…ë ¥
 #include<stdio.h>
 
 int main() {
 
 	int a;
-	printf("¼ýÀÚ ÀÔ·Â:");
-	scanf("%d", &a); // a¿¡ À¯Àú°¡ ÀÔ·ÂÇÑ °ª ´ã±â (a ¾Õ¿¡ & Àû¾îÁÖ´Â °Ô ±²ÀåÈ÷ Áß¿äÇÔ)
-	printf("aÀÇ °ªÀº %dÀÔ´Ï´Ù.\n", a); // \nÀÇ À§Ä¡ Á¤È®ÇÏ°Ô ¹°¾îº¸±â@@@@@@@@@@@@@
+	printf("ìˆ«ìž ìž…ë ¥:");
+	scanf("%d", &a); // aì— ìœ ì €ê°€ ìž…ë ¥í•œ ê°’ ë‹´ê¸° (a ì•žì— & ì ì–´ì£¼ëŠ” ê²Œ êµ‰ìž¥ížˆ ì¤‘ìš”í•¨)
+	printf("aì˜ ê°’ì€ %dìž…ë‹ˆë‹¤.\n", a); // \nì˜ ìœ„ì¹˜ ""<< ì•ˆì— ìžˆì–´ì•¼ í•¨
 	
 
 
-	int b; // b¿¡ ¹¹°¡ ´ã°ÜÁ® ÀÖ´ÂÁö ¸ð¸¥´Ù.
-	printf("¼ýÀÚ ÀÔ·Â:");
+	int b; // bì— ë­ê°€ ë‹´ê²¨ì ¸ ìžˆëŠ”ì§€ ëª¨ë¥¸ë‹¤.
+	printf("ìˆ«ìž ìž…ë ¥:");
 	scanf("%d", &b);
-	printf("bÀÇ ¼ýÀÚ´Â %dÀÔ´Ï´Ù.", b);
+	printf("bì˜ ìˆ«ìžëŠ” %dìž…ë‹ˆë‹¤.", b);
 
 
 
